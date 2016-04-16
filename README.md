@@ -2,13 +2,15 @@
 
 Gatsby starter for creating a sales page.
 
-Install this starter (assuming Gatsby is installed) by running from your command line:
-`gatsby new kennedy https://github.com/cutemachine/gatsby-starter-kennedy`
 
+## Getting started
 
-## Running in development
+Make sure you have Gatsby installed. If not please refer to the instructions found in the Gatsby repository.
 
-`gatsby develop`
+    gatsby new WHATEVER-YOU-WANT-TO-NAME-IT https://github.com/cutemachine/gatsby-starter-kennedy
+    cd WHATEVER-YOU-WANT-TO-NAME-IT
+    npm install
+    gatsby develop
 
 
 ## Thanks
