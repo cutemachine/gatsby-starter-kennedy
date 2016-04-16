@@ -1,0 +1,106 @@
+@lost gutter 10px
+
+header
+  display: block
+  box-sizing: border-box
+
+.top-navigation
+  top: 0
+  left: 0
+  width: 100%
+  position: fixed
+  height: 62px
+  background: white
+  box-shadow: 0 0 2px rgba(10, 10, 10, 0.8)
+  z-index: 1000
+
+.top-navigation__logo
+  lost-column: 1/4
+  height: 100%
+
+.top-navigation__logo img
+  width: 40px
+  height: 40px
+  margin-top: 11px
+  margin-left: 12px
+  line-height: 62px
+
+.top-navigation__menu
+  text-align: center
+  display: none
+
+.top-navigation__button-middle
+  lost-column: 2/4
+  height: 100%
+
+.top-navigation__button-right
+  display: none
+  lost-column: 1/4 4
+  height: 100%
+
+.top-navigation__burger
+  lost-column: 1/4 5
+  display: inline-block
+  height: 100%
+
+.top-navigation__burger .fa
+  line-height: 62px
+  font-size: 24px
+  color: #666
+  margin-right: 12px
+  float: right
+
+.top-navigation__item
+  text-align: center
+  height: 62px
+  width: 100px
+  line-height: 62px
+  padding: 0 18px
+  position: relative
+  font-size: 12px
+  font-weight: bold
+  letter-spacing: 0.03em
+  color: #3b3b3b
+  display: inline-block
+  vertical-align: middle
+  box-sizing: border-box
+
+.top-navigation__item.active
+  border-bottom: 4px solid #7F548C
+
+.top-navigation__item:hover
+  background: rgba(142, 95, 157, 0.25)
+
+@media (min-width: 760px)
+  .top-navigation__menu
+    lost-column: 2/4 0
+    display: inline-block
+
+  .top-navigation__burger
+    display: none
+    background: green
+
+  .top-navigation__button-middle
+    display: none
+    lost-column: 2/4
+    height: 100%
+
+  .top-navigation__button-right
+    display: inline-block
+    lost-column: 1/4
+    height: 100%
+
+@media (min-width: 520px, max-width: 600px)
+  .top-navigation__logo
+    lost-column: 1/4 0
+  .top-navigation__logo img
+    width: 40px
+    height: 40px
+    margin-left: 12px
+  .top-navigation__menu
+    lost-column: 2/4 0
+    display: none
+  .top-navigation__burger
+    lost-column: 1/4 0
+    display: inline-block
+    float: right

@@ -1,0 +1,12 @@
+websiteTitle = "My Product"
+
+authorName = "George Grind"
+
+linkTelegram = "#"
+linkTwitter = "#"
+linkGithub = "#"
+linkEmail = "#"
+linkRss = "/feed.xml"
+linkVk = "#"
+
+linkPrefix = "/my-domain"
