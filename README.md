@@ -1,8 +1,8 @@
 # Kennedy
 
-Gatsby starter for creating a sales page
+Gatsby starter for creating a sales page.
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
+Install this starter (assuming Gatsby is installed) by running from your command line:
 `gatsby new kennedy https://github.com/cutemachine/gatsby-starter-kennedy`
 
 
@@ -10,12 +10,13 @@ Install this starter (assuming Gatsby is installed) by running from your CLI:
 
 `gatsby develop`
 
-![](http://i.imgur.com/422y5GV.png)
+
+## Thanks
+
+This work is heavily base on the [gatsby-starter-lumen](https://github.com/hb-gatsby/gatsby-starter-lumen) repository.
 
 
-## License
-
-The MIT license.
+## MIT License
 
 Copyright (c) 2016 Jo Meenen [cutemachine.com](http://cutemachine.com)
 
