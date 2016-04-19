@@ -107,10 +107,6 @@ a:hover {
 a:visited {
   color: #222;
 }
-a:visited:hover {
-  color: #222;
-  border-bottom: 1px solid;
-}
 a:active {
   color: #222;
   border-bottom: 1px solid;
