@@ -15,7 +15,7 @@ Make sure you have Gatsby installed. If not please refer to the instructions fou
 
 ## Thanks
 
-This work is heavily base on the [gatsby-starter-lumen](https://github.com/hb-gatsby/gatsby-starter-lumen) repository.
+This work is heavily based on the [gatsby-starter-lumen](https://github.com/hb-gatsby/gatsby-starter-lumen) repository.
 
 
 ## MIT License
