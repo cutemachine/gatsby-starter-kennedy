@@ -23,11 +23,11 @@ class BlogIndex extends React.Component {
           </section>
           <section className="is">
             <img className="simg"
-              src="/images/240x150.png"
+              src={prefixLink("/images/240x150.png")}
               srcset="/images/240x150.png 1x, /images/240x150@2x.png 2x"
               alt="Sample product image" />
             <img className="bimg"
-              src="/images/470x290.png"
+              src={prefixLink("/images/470x290.png")}
               srcset="/images/470x290.png 1x, /images/470x290@2x.png 2x"
               alt="Sample product image" />
           </section>

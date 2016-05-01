@@ -13,8 +13,8 @@ class TopMenu extends React.Component {
         return (
             <header className="top-navigation">
               <nav className="top-navigation__logo">
-                <Link to={ prefixLink('/') }>
-                  <img src='/images/logo.svg' />
+                <Link to={prefixLink('/')}>
+                  <img src={prefixLink('/images/logo.svg')} />
                 </Link>
               </nav>
               <nav className="top-navigation__menu">

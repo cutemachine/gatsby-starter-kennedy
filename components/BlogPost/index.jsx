@@ -18,7 +18,7 @@ class BlogPost extends React.Component {
         const home = (
         <div>
           <Link className="gohome" to={ prefixLink('/') }>
-            <img src='/images/logo.svg' />
+            <img src={ prefixLink('/images/logo.svg') } />
           </Link>
         </div>
         )
