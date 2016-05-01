@@ -2,6 +2,10 @@
 
 Gatsby starter for creating a sales page.
 
+## Live Version
+
+A live version is running on my blog at [cutemachine.com/kennedy/](http://cutemachine.com/kennedy/).
+
 
 ## Getting started
 
